@@ -1,0 +1,152 @@
+﻿body {
+    background-color: #E3F2F2;
+    padding-top: 5px;
+}
+
+.navbar {
+    background-color: #2E6DA4;
+}
+
+.nav-logo {
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: Cursive;
+}
+
+    .nav-logo:hover {
+        color: whitesmoke;
+    }
+
+a {
+    text-decoration: none;
+}
+
+.nav-atalho {
+    font-size: 18px;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+    .nav-atalho:hover {
+        color: whitesmoke;
+    }
+
+h3 {
+    font-size: 26px;
+    color: #2e6da4;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    text-shadow: 2px 2px 3px #2e6da4;
+}
+
+.container-listagem {
+    width: 99%;
+    padding-left: 1%;
+}
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    font-family: 'Verdana';
+}
+
+    table thead {
+        background-color: #2e6da4;
+        color: white;
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+    }
+
+    table.listagem {
+        float: left;
+        width: 100%;
+    }
+
+/*.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 2px auto 100px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}*/
+
+/*.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}*/
+
+.form-body {
+    width: 482px;
+    height: 500px;
+    left: 50%;
+    margin: -145px 0 0 -245px;
+    padding: 14px;
+    position: absolute;
+    top: 38%;
+}
+
+.inicia-invisivel {
+    display: none;
+}
+
+.inicia-invisivel-form {
+    display: none;
+}
+
+.inicia-invisivel-table {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+
+.form-label {
+    font-family: 'Arial Rounded MT';
+    font-size: 18px;
+    color: #2e6da4;
+}
+
+.endereco {
+    margin-top: -8px;
+}
+
+footer {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #2e6da4;
+    color: whitesmoke;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}

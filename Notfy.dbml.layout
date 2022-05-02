@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Notfy">
+  <DataContextMoniker Name="/NotfyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9f0ae61e-a888-4c0c-9c3d-ecaca717d395" absoluteBounds="4.625, 1.625, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/NotfyDataContext/Notificacao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8686e925-a733-4cbe-a610-9a6757e61fdb" absoluteBounds="4.64, 2.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="461c4e27-bb27-43b1-8f7d-bbcb34db4c2a" absoluteBounds="1.75, 1.625, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/NotfyDataContext/Notificador" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95e5b7ad-7a2e-412a-b3c8-5f990585ae27" absoluteBounds="1.7650000000000001, 2.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.75 : 2.89505126953125); (4.625 : 2.89505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NotfyDataContext/Notificador/Notificador_Notificacao" />
+      <nodes>
+        <classShapeMoniker Id="461c4e27-bb27-43b1-8f7d-bbcb34db4c2a" />
+        <classShapeMoniker Id="9f0ae61e-a888-4c0c-9c3d-ecaca717d395" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c2a85085-3b71-41b0-9a37-0892b298cd13" absoluteBounds="7.375, 1.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/NotfyDataContext/Notificando" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9f0ddd2-d457-492d-ba97-5f7999b6c2cb" absoluteBounds="7.3900000000000006, 2.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.375 : 2.60659912109375); (6.625 : 2.60659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NotfyDataContext/Notificando/Notificando_Notificacao" />
+      <nodes>
+        <classShapeMoniker Id="c2a85085-3b71-41b0-9a37-0892b298cd13" />
+        <classShapeMoniker Id="9f0ae61e-a888-4c0c-9c3d-ecaca717d395" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="93749398-adad-42cd-bf5e-00dc4ba903c5" absoluteBounds="7.375, 4, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/NotfyDataContext/Endereco" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81db6e9b-4d97-4629-b957-316c568e43bc" absoluteBounds="7.3900000000000006, 4.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.375 : 3.5881982421875); (8.375 : 4)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NotfyDataContext/Notificando/Notificando_Endereco" />
+      <nodes>
+        <classShapeMoniker Id="c2a85085-3b71-41b0-9a37-0892b298cd13" />
+        <classShapeMoniker Id="93749398-adad-42cd-bf5e-00dc4ba903c5" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
